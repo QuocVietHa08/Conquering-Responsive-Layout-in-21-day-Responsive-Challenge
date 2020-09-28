@@ -1,0 +1,3 @@
+We should instead of using px to set the width and height, we should use % unit to resize the width need to make 
+And avoiding set height for the layout because the website is responsiveness by itself so we do not need the set height for it.
+If you need to set height for image or text content, you can use padding for resize the content or image beside of setting height for it

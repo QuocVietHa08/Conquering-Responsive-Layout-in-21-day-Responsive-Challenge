@@ -1,0 +1,4 @@
+ Why ems can be really dangerous.
+- when em can be use to set font size, it will take it's parent font-size to set so it can be come really dangerous about it.
+- when your div use em to set font-size and it have a lot of parent so choose em to custmize it may be not a good ideal, you should use rem instead of that.
+- you can set the html font-size is 62,5% so 1rem == 10px.

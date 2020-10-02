@@ -1,0 +1,8 @@
+EM and REM explained.
+1.EM
+- 1 em == 16px if it's parent have not be set size.
+- em is unit that relative with its parents.
+- If the parents have the size is 10px and the childrens have the size is 2.5em so the childrens will have a size of 10*2.5px.
+2.REM (Root of em) 
+- The rem relative will the html size it does not relatives with its parent size. It is the different between rem and em.
+- You can use rem and em for padding margin width and height but if you want the padding the margin to stay still no change you should you rem and if you want the padding and margin change depend on its parent, you should use em.

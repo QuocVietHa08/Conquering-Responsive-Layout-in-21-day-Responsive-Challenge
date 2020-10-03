@@ -1,0 +1,2 @@
+- if you want to limit the width of the website we can use max-width to do it.
+- max-width: set the maxium of some thing that if that thing ex like a div will cross the max-width that you set before, not thing will change.

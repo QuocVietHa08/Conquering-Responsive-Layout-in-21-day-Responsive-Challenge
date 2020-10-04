@@ -1,0 +1,8 @@
+CSS units : vh ,vw,vmax,vmin.
+-vh: view point height
+-vw :view point width.
+- when we set with % unit the children with have width or height that follow the % of its parent.
+- But when we set with vh or vw unit , the attribute that we set will be that % of all width or all height.
+-vmax : view point maxium if the width is longer or taller that the height the vmax will adjust acroding to it.
+if the height is taller and longer that the height, it just adjust acroding thought the height.
+- it really good for title.

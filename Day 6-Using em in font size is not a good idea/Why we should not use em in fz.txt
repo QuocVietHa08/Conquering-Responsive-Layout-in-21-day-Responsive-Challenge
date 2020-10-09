@@ -1,0 +1,3 @@
+-why you shouldn't set font-size using em.
+-when em uses to set a font-size, it will look at its parent to set the size.If you use normal is ok, but when use set the font size for a lot of layout or div layout, it will not a good choice
+-you should use rem instead of use em

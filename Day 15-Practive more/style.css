@@ -1,0 +1,99 @@
+* {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-family: 'Inconsolata', monospace;
+
+  width: 95%;
+  padding-bottom: 10px;
+  height: 20px;
+  margin: 30px auto;
+}
+
+.main-container {
+  width: 80%;
+  height: 20rem;
+  margin: 0 auto;
+  display: flex;
+}
+.img {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.img img {
+  position: absolute;
+  left: -3.65%;
+  right: 57.21%;
+  top: -9.54%;
+  bottom: 34.03%;
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  width: 120%;
+  color: black;
+}
+.messege {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+
+  font-size: 34px;
+  line-height: 35px;
+  letter-spacing: -0.035em;
+}
+.main-content {
+  font-family: 'Roboto Mono', monospace;
+  color: #4f4f4f;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  padding-bottom: 20px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+.button {
+  background-color: rgb(46, 9, 9);
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* responsive */
+@media (max-width: 400px) {
+  * {
+    width: 100%;
+    height: auto;
+  }
+  .main-container {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .content {
+    margin: 0 auto;
+    margin-left: -23px;
+    margin-top: 200px;
+  }
+}

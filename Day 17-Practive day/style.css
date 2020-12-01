@@ -1,0 +1,182 @@
+* {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.container {
+  width: 90%;
+  margin: 10px auto;
+}
+.header {
+  width: 100%;
+  height: 30px;
+}
+.header-title {
+  border: 1px solid white;
+  line-height: 30px;
+  display: inline-block;
+}
+.header-title div p {
+  text-transform: uppercase;
+  font-family: 'Crimson Pro';
+  padding: 0 5px 0 5px;
+}
+.header-menu {
+  display: inline-block;
+  float: right;
+  width: 45px;
+  height: 100%;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+/* menu section*/
+.menu {
+  position: relative;
+  top: -33px;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+
+  align-items: center;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  transform: translateX(-2000px);
+  transition: 2s ease-in linear;
+}
+.menu-item {
+  font-family: 'Montserrat';
+  margin-top: 30px;
+  font-weight: bold;
+}
+.menu-item:hover {
+  opacity: 1;
+}
+.bold {
+  font-weight: bold;
+}
+#burger-menu:checked ~ .menu {
+  transform: translate(0);
+}
+/* body section */
+.body {
+  width: 100%;
+
+  margin-top: 30px;
+}
+.body-content {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-title {
+  font-family: 'Modern interior';
+  font-size: 40px;
+}
+.main-content {
+  width: 260px;
+  font-family: 'Montserrat';
+  padding-top: 20px;
+}
+.read-more {
+  width: 150px;
+  height: 20px;
+  font-family: 'Montserrat';
+  line-height: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.read-more i {
+  line-height: 24px;
+}
+.read-more div {
+  font-size: 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+/* image section */
+.img-container {
+  margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.img-card {
+  position: relative;
+  top: -50px;
+
+  width: 300px;
+  height: 138px;
+  margin: 0 auto;
+  padding: 0 20px 50px 20px;
+}
+.img-card .card-title {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding-top: 10px;
+}
+.img-card .card-title .card-img {
+  width: 62px;
+  height: 53px;
+  margin-right: 10px;
+}
+
+.card-img img {
+  border-radius: 50%;
+}
+.name,
+.job {
+  font-family: 'Montserrat';
+}
+.job {
+  opacity: 0.8;
+}
+.card-content {
+  font-family: 'Lora';
+  font-weight: bold;
+  font-size: 30px;
+}
+@media only screen and (min-width: 400px) {
+  .header-menu label {
+    display: none;
+  }
+  .menu {
+    width: 50%;
+    height: 5vh;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translateX(0);
+    position: relative;
+    top: 0;
+  }
+  .menu .icon {
+    display: none;
+  }
+  .menu-item {
+    display: inline-block;
+    margin-top: 0;
+  }
+  .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .img-container {
+    width: 60%;
+  }
+  .img-card {
+    margin-left: 250px;
+  }
+}

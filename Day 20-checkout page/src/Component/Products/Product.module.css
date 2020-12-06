@@ -1,0 +1,29 @@
+.Products {
+  width: 90%;
+  margin: 10px auto;
+  padding-bottom: 20px;
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+
+.totalPrice div {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  border-top: 1px solid #bdbdbd;
+}
+.totalPrice div p {
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 400px) {
+  .Products {
+    width: 40%;
+    height: 30%;
+    margin: 0;
+    margin-top: 60px;
+  }
+}

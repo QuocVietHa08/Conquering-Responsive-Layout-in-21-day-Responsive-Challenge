@@ -1,0 +1,19 @@
+.App .Infor .Checkout {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-left: 43px;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+@media screen and (min-width: 400px) {
+  .App {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row-reverse;
+  }
+  .App .Infor {
+    width: 60%;
+  }
+}

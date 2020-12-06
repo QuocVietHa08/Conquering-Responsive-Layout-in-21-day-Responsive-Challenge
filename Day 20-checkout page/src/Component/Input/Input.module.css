@@ -1,0 +1,12 @@
+.Input {
+  width: 95%;
+  margin: 10px auto;
+}
+.Input p {
+  font-size: 1.8rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-left: 28px;
+}
+@media screen and (min-width: 400px) {
+}

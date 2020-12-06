@@ -1,0 +1,81 @@
+.Product {
+  padding-top: 20px;
+  width: 80%;
+  height: 12.5rem;
+  display: flex;
+  margin: 20px auto;
+}
+.ImageHolder {
+  height: 100%;
+  width: 16rem;
+}
+.ImageHolder img {
+  max-width: 72%;
+  border-radius: 13px;
+  height: auto;
+}
+.productDesc {
+  width: 50%;
+  margin-top: 10px;
+  padding-right: 10px;
+  height: 30%;
+}
+.title {
+  width: 100%;
+
+  font-family: 'Montserrat';
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.Price {
+  width: 65%;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-evenly;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+.currentPrice {
+  color: Orange;
+  font-size: 1.6rem;
+  padding-right: 5px;
+}
+.lastPrice {
+  color: #4e5150;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.numberBuy {
+  width: 70%;
+  height: 3rem;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+.number {
+  height: 50%;
+  margin-top: 5px;
+  font-family: 'Montserrat';
+  line-height: 100%;
+  font-weight: bold;
+}
+.increase,
+.number,
+.decrease {
+  height: 100%;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.increase,
+.decrease {
+  background: #e0e0e0;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  color: #828282;
+}

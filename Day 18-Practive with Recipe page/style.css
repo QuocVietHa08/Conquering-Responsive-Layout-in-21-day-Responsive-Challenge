@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.title {
+  margin-top: 10px;
+  font-family: 'Playfair Display';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.content {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.content div:first-child {
+  display: flex;
+  color: gray;
+  margin-left: 5px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+.img {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+/* time section */
+.time {
+  margin-bottom: 20px;
+}
+
+.yield {
+  margin-top: 25px;
+  display: flex;
+}
+.yield div {
+  font-size: 1.7rem;
+  font-family: 'Montserrat';
+}
+.time-cook {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  margin-top: 10px;
+}
+.time-cook-item {
+  display: flex;
+}
+.time-cook-content p {
+  font-size: 1rem;
+}
+.time-cook-content p:first-child {
+  color: gray;
+}
+/* ingredient */
+.ingredients-container {
+  height: auto;
+}
+.ingredient-title {
+  font-family: 'Playfair Display';
+  font-size: 2.7rem;
+}
+.item-ingredient {
+  margin-top: 15px;
+}
+.title {
+  font-family: 'Playfair Display';
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.name {
+  font-family: 'Playfair Display';
+  font-size: 1.7rem;
+  color: Gray;
+  font-style: italic;
+}
+.main-ingredients {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ingredient-item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10px 0;
+}
+.ingredient-item input {
+  height: 100%;
+  transform: scale(1.5);
+
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.bold {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.name-ingredient {
+  font-size: 1.7rem;
+  font-family: 'Montserrat';
+}
+.instruction {
+  margin-top: 20px;
+}
+.instruction-title {
+  font-family: 'Playfair Display';
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+.instruction-item {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.instruction-number {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-family: 'Playfair Display';
+  text-align: center;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+.instruction-desc {
+  width: 83%;
+  font-family: 'Montserrat';
+  font-size: 1.7rem;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 990px;
+    margin: 50px auto;
+  }
+  .title {
+    font-size: 4.5rem;
+  }
+  .content {
+    width: 600px;
+    margin-bottom: 30px;
+  }
+  .body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+  }
+  .ingredient-and-instruction {
+    max-width: 600px;
+  }
+  .time {
+    width: 220px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 20px #eee;
+  }
+  .time-cook {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .time-cook-item {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: 'Montserrat';
+}
+.container {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  margin-top: 20px;
+
+  .img-container {
+    width: 14rem;
+    height: 21rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    align-items: center;
+    .img {
+      width: 100%;
+
+      img {
+        border-radius: 20px;
+      }
+    }
+    .img-detail {
+      margin-top: 10px;
+      line-height: 20px;
+      .name {
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: 'Montserrat';
+      }
+      .name-desc {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #a9a9a9;
+        font-family: 'Montserrat';
+      }
+    }
+  }
+  .header-status {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .status-item {
+      width: 8.4rem;
+      height: 5rem;
+
+      background-color: #e5e5e5;
+      text-align: center;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      .number {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+      }
+      .type {
+        font-size: 1.5rem;
+        color: Gray;
+      }
+    }
+  }
+}
+.body {
+  width: 100%;
+  margin-top: 40px;
+  align-items: center;
+  .body-img {
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+
+    grid-gap: 10px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas:
+      'one two two'
+      'three three four'
+      'five six four';
+    .item1 {
+      grid-area: one;
+    }
+    .item2 {
+      grid-area: two;
+    }
+    .item3 {
+      grid-area: three;
+    }
+    .item4 {
+      grid-area: four;
+    }
+    .item5 {
+      grid-area: five;
+    }
+    .item6 {
+      grid-area: six;
+    }
+
+    img {
+      max-width: 100%;
+
+      border-radius: 20px;
+    }
+  }
+}
+@media screen and (min-width: 400px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .header {
+    .header-status {
+      width: 30%;
+      .status-item {
+        width: 9.4rem;
+        height: 5.5rem;
+      }
+    }
+  }
+  .body {
+    width: 100%;
+    .body-img {
+      width: 95%;
+      grid-gap: 20px;
+      grid-template-columns: 32% 32% 32%;
+      grid-template-rows: 32% 32% 32%;
+    }
+  }
+}
